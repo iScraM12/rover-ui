@@ -1,0 +1,8 @@
+<div class="control">
+  <input type="input" [(ngModel)]="commands" />
+  <input type="button" value="simulate" (click)="simulateRoverCommands()" />
+</div>
+<div class="output">
+  <canvas #roverAreaCanvas class="roverArea"></canvas>
+  <canvas #roverCanvas class="rover"></canvas>
+</div>
